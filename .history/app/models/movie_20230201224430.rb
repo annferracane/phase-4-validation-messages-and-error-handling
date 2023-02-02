@@ -8,8 +8,7 @@ class Movie < ApplicationRecord
     }
     validates :poster_url, presence: true
     validates :category, inclusion: {
-        in: CATEGORIES,
-        message: "must be one of: #{CATEGORIES.join(', ')}"
-    }
-    
+    in: CATEGORIES,
+    message: "must be one of: #{CATEGORIES.join(', ')}"
+  }
 end

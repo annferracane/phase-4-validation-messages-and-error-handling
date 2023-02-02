@@ -10,6 +10,5 @@ class Movie < ApplicationRecord
     validates :category, inclusion: {
         in: CATEGORIES,
         message: "must be one of: #{CATEGORIES.join(', ')}"
-    }
-    
+  }
 end

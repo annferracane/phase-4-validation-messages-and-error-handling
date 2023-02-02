@@ -11,5 +11,4 @@ class Movie < ApplicationRecord
         in: CATEGORIES,
         message: "must be one of: #{CATEGORIES.join(', ')}"
     }
-    
 end

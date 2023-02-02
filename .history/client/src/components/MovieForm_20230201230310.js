@@ -65,7 +65,6 @@ async function handleSubmit(e) {
     //   .then((response) => response.json())
     //   .then((newMovie) => console.log(newMovie));
   }
-  */
 
   function handleChange(e) {
     const value =
